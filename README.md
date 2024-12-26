@@ -12,6 +12,7 @@ python -m venv venv
 source venv/bin/activate
 
 # Install dependencies
+cd third_party/FastVideo && ./env_setup.sh fastvideo && cd ../..
 pip install -r requirements.txt
 
 # Download models
